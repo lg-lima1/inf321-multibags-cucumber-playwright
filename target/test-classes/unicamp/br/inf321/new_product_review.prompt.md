@@ -1,0 +1,35 @@
+@/src/test/resources/unicamp/br/inf321/generate_tests.prompt.md
+
+New Product Review Test:
+- Navigate to http://multibags.1dt.com.br/
+- Click on My Account in the top header menu
+- Click on Sign in
+- Enter with the email "oisidoro@unicamp.br"
+- Enter with password "aA#123456789"
+- click on the sign in button
+- check the Welcome <username>, where username is Toni for the given email
+- check the current url is http://multibags.1dt.com.br/shop/customer/dashboard.html
+- check the main content on the page have the following menus:
+    - My Account
+    - Billing & shipping information
+    - Change password
+    - Logout
+- click on the handbags menu entry
+- Navigate to http://multibags.1dt.com.br/shop/product/vintage-courier-bag.html
+- click on the Customer Review tab
+- click on the Write a Review Button
+- If the "You have evaluated this product" text is visible in the page then:
+  - Save the productId from the url
+  - Authenticate the user in the following API route http://multibags.1dt.com.br/api/v1/customer/login
+  - Save the token for further usage
+  - Send a get request to this API route using the auth token http://multibags.1dt.com.br/api/v1/products/<productId>/reviews
+  - Save all id from response as reviewIds
+  - For every reviewId from reviewIds, send a delete request to http://multibags.1dt.com.br/api/v1/auth/products/<productId>/reviews/<reviewId>
+  - And then refresh the current page
+- insert a random text of 140 characters inside description text area, save as textInput
+- Insert a random value from 0 to 5 in the score input, save as scoreInput
+- click on the submit button
+- A text "You have successfully created a product review" should be visible
+- A text "You have evaluated this product" should be visible
+- The input score should be the same as scoreInput
+- A text equal as textInput should be visible

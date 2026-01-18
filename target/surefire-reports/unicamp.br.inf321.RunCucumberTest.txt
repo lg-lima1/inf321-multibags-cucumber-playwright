@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: unicamp.br.inf321.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.33 s -- in unicamp.br.inf321.RunCucumberTest
