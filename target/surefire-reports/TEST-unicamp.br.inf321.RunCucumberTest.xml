@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="unicamp.br.inf321.RunCucumberTest" time="18.334" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="unicamp.br.inf321.RunCucumberTest" time="17.07" tests="3" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="25"/>
+    <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\lglim\projects\multibags-cucumber-playwright\target\test-classes;C:\Users\lglim\projects\multibags-cucumber-playwright\target\classes;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\lglim\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\lglim\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\lglim\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\lglim\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\lglim\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\lglim\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\lglim\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\lglim\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\lglim\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\lglim\.m2\repository\com\microsoft\playwright\playwright\1.57.0\playwright-1.57.0.jar;C:\Users\lglim\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\lglim\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\lglim\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\lglim\.m2\repository\com\microsoft\playwright\driver\1.57.0\driver-1.57.0.jar;C:\Users\lglim\.m2\repository\com\microsoft\playwright\driver-bundle\1.57.0\driver-bundle-1.57.0.jar;C:\Users\lglim\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\lglim\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;"/>
@@ -11,60 +11,55 @@
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/Sao_Paulo"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="25"/>
-    <property name="user.country" value="BR"/>
+    <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Users\lglim\.jdks\openjdk-25.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\lglim\AppData\Local\Temp\surefire4194396515553718784\surefirebooter-20260118153422272_3.jar C:\Users\lglim\AppData\Local\Temp\surefire4194396515553718784 2026-01-18T15-34-22_190-jvmRun1 surefire-20260118153422272_1tmp surefire_0-20260118153422272_2tmp"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\lglim\AppData\Local\Temp\surefire332492415537239925\surefirebooter-20260118154538233_3.jar C:\Users\lglim\AppData\Local\Temp\surefire332492415537239925 2026-01-18T15-45-38_145-jvmRun1 surefire-20260118154538233_1tmp surefire_0-20260118154538233_2tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="unicamp.br.inf321.RunCucumberTest"/>
     <property name="surefire.test.class.path" value="C:\Users\lglim\projects\multibags-cucumber-playwright\target\test-classes;C:\Users\lglim\projects\multibags-cucumber-playwright\target\classes;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\lglim\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\lglim\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\lglim\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.0\junit-platform-suite-api-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.0\junit-platform-suite-engine-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.0\junit-platform-suite-commons-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.0\junit-platform-launcher-1.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\lglim\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\lglim\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\lglim\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\lglim\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\lglim\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\lglim\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\lglim\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\lglim\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\lglim\.m2\repository\org\json\json\20231013\json-20231013.jar;C:\Users\lglim\.m2\repository\com\microsoft\playwright\playwright\1.57.0\playwright-1.57.0.jar;C:\Users\lglim\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\lglim\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\lglim\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\lglim\.m2\repository\com\microsoft\playwright\driver\1.57.0\driver-1.57.0.jar;C:\Users\lglim\.m2\repository\com\microsoft\playwright\driver-bundle\1.57.0\driver-bundle-1.57.0.jar;C:\Users\lglim\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\lglim\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\lglim"/>
     <property name="user.language" value="pt"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2025-10-21"/>
-    <property name="java.home" value="C:\Users\lglim\.jdks\openjdk-25.0.1"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\lglim\projects\multibags-cucumber-playwright"/>
-    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\lglim\AppData\Local\Temp\surefire4194396515553718784\surefirebooter-20260118153422272_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\lglim\AppData\Local\Temp\surefire332492415537239925\surefirebooter-20260118154538233_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="25.0.1+8-27"/>
+    <property name="java.runtime.version" value="21.0.9+7-LTS-338"/>
     <property name="user.name" value="skywalker"/>
     <property name="stdout.encoding" value="Cp1252"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.4\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\lglim\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\lglim\AppData\Local\Temp\"/>
-    <property name="idea.version" value="2025.2.4"/>
-    <property name="java.version" value="25.0.1"/>
+    <property name="java.version" value="21.0.9"/>
     <property name="user.dir" value="C:\Users\lglim\projects\multibags-cucumber-playwright"/>
     <property name="os.arch" value="amd64"/>
-    <property name="jansi.passthrough" value="true"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\lglim\.jdks\openjdk-25.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python314\Scripts\;C:\Python314\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Sunshine;C:\Program Files\Sunshine\tools;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.12\bin;C:\Users\lglim\AppData\Local\Microsoft\WindowsApps;C:\Users\lglim\AppData\Local\Python\bin;C:\Users\lglim\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lglim\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python314\Scripts\;C:\Python314\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Sunshine;C:\Program Files\Sunshine\tools;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.12\bin;C:\Users\lglim\AppData\Local\Microsoft\WindowsApps;C:\Users\lglim\AppData\Local\Python\bin;C:\Users\lglim\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lglim\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.0.1+8-27"/>
-    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="java.vm.version" value="21.0.9+7-LTS-338"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="maven.repo.local" value="C:\Users\lglim\.m2\repository"/>
-    <property name="java.class.version" value="69.0"/>
+    <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="Successful login with valid credentials" classname="User Login" time="5.108">
+  <testcase name="Successful login with valid credentials" classname="User Login" time="4.159">
     <system-out><![CDATA[
 Scenario: Successful login with valid credentials                                               &amp#27;[90m# unicamp/br/inf321/Login.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user is on the homepage&amp#27;[0m                                                             &amp#27;[90m# unicamp.br.inf321.LoginStepDefinitions.the_user_is_on_the_homepage()&amp#27;[0m
@@ -81,7 +76,7 @@ Scenario: Successful login with valid credentials                               
     | Logout                         |
 ]]></system-out>
   </testcase>
-  <testcase name="Register Account Test" classname="Register User Account" time="4.497">
+  <testcase name="Register Account Test" classname="Register User Account" time="4.1">
     <system-out><![CDATA[
 Scenario: Register Account Test                                                                  &amp#27;[90m# unicamp/br/inf321/RegisterUser.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"http://multibags.1dt.com.br/"&amp#27;[0m                                             &amp#27;[90m# unicamp.br.inf321.RegisterUserStepDefinitions.i_navigate_to(java.lang.String)&amp#27;[0m
@@ -102,7 +97,7 @@ Scenario: Register Account Test                                                 
     | Logout     |
 ]]></system-out>
   </testcase>
-  <testcase name="Register a new product review successfully" classname="New Product Review Test" time="6.846">
+  <testcase name="Register a new product review successfully" classname="New Product Review Test" time="6.808">
     <system-out><![CDATA[
 Scenario: Register a new product review successfully                                       &amp#27;[90m# unicamp/br/inf321/new_product_review.feature:3&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI navigate to &amp#27;[0m&amp#27;[32m&amp#27;[1m"http://multibags.1dt.com.br/"&amp#27;[0m                                       &amp#27;[90m# unicamp.br.inf321.RegisterUserStepDefinitions.i_navigate_to(java.lang.String)&amp#27;[0m
